@@ -11,7 +11,7 @@ fi
 echo "installing openWB 2 into \"${OPENWBBASEDIR}\""
 
 # install packages by pre-downloading our script so we only have one file to maintain
-curl -s "https://raw.githubusercontent.com/jankooes/core/master/runs/install_packages.sh" | bash -s
+curl -s "https://raw.githubusercontent.com/jankopes/core/master/runs/install_packages.sh" | bash -s
 
 echo "create group $OPENWB_GROUP"
 # Will do nothing if group already exists:
